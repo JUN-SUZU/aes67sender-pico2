@@ -1,0 +1,107 @@
+# ============================================
+
+# Build artifacts
+
+# ============================================
+
+/build/
+
+# CMake generated files
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Ninja generated files
+
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Firmware / binary outputs
+
+*.bin
+*.elf
+*.hex
+*.uf2
+*.map
+*.dis
+
+# ============================================
+
+# External dependencies
+
+# ============================================
+
+/FreeRTOS-Kernel/
+/ioLibrary_Driver/
+/tinyusb/
+
+# ============================================
+
+# Editor / IDE temporary files
+
+# ============================================
+
+# Keep .vscode project settings under Git.
+
+# Ignore only machine/user-specific VS Code files.
+
+.vscode/*.log
+
+# Visual Studio
+
+.vs/
+
+# CLion / IntelliJ
+
+.idea/
+
+# Vim
+
+*.swp
+*.swo
+*~
+
+# Emacs
+
+#*#
+.#*
+
+# ============================================
+
+# OS generated files
+
+# ============================================
+
+# Windows
+
+Thumbs.db
+Desktop.ini
+
+# macOS
+
+.DS_Store
+
+# Linux
+
+.directory
+
+# ============================================
+
+# Temporary / debug files
+
+# ============================================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+*.orig
+
+# Core dumps
+
+core
+core.*
